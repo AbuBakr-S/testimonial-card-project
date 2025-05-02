@@ -13,11 +13,11 @@ export default function Home() {
       <div className="flex gap-4 items-center mb-4">
         <Image src="/profile-thumbnail.png" alt="profile" width={48} height={48} />
         <div className="flex flex-col">
-          <div className="text-gray-900 text-lg font-semibold">Title</div>
-          <div className="text-gray-600 font-normal">@socialhandle</div>
+          <div className="text-gray-900 text-lg font-semibold">Sarah Dole</div>
+          <div className="text-gray-600 text-sm font-normal">@sarahdole</div>
         </div>
       </div>
-      <p className="font-normal text-sm text-gray-600">
+      <p className="font-normal text-base text-gray-600">
         I&apos;ve been searching for high-quality abstract images for my design projects, and I&apos;m thrilled to have found this platform. The variety and depth of creativity are astounding!
       </p> 
     </div>
