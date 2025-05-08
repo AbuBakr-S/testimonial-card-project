@@ -1,36 +1,12 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Tech Stack and Approach
 
-## Getting Started
+Built with **Next.js 14 (App Router)**, **React**, **Tailwind CSS**, and **TypeScript**.
 
-First, run the development server:
+I approached the task by focusing on clean, accessible UI. Semantic HTML tags like `<figure>`, `<figcaption>`, and `<blockquote>` were used to reinforce meaning and structure. Styling was handled with Tailwind’s utility classes to ensure responsiveness across screen sizes. I used the `next/image` component for optimised image loading and imported the **Noto Sans** font via Next.js’s built-in Google Fonts integration.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Useful Resources and Lessons Learnt
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) – for spacing, layout, and gradient utilities  
+- [Figma](https://www.figma.com) – used to inspect font weights and spacing for accurate implementation  
+- Learned how to apply `min-w-[375px]` to prevent layout collapse on smaller viewports  
+- Gained better understanding of semantic HTML and accessibility-friendly markup
